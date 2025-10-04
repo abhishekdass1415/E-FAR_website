@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Icon Size Test</title>
+    <style>
+        .test-icon {
+            width: 12px !important;
+            height: 12px !important;
+            border: 1px solid red;
+        }
+        .test-icon-large {
+            width: 16px !important;
+            height: 16px !important;
+            border: 1px solid blue;
+        }
+    </style>
+</head>
+<body>
+    <h1>Icon Size Test</h1>
+    <p>Small icon (12px):</p>
+    <svg class="test-icon" viewBox="0 0 24 24" fill="currentColor">
+        <path d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"/>
+    </svg>
+    
+    <p>Large icon (16px):</p>
+    <svg class="test-icon-large" viewBox="0 0 24 24" fill="currentColor">
+        <path d="M17 8l4 4m0 0l-4 4m4-4H3"/>
+    </svg>
+    
+    <p>If you can see the red and blue borders, the sizing is working!</p>
+</body>
+</html>

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Nuclear Icon Test</title>
+    <style>
+        /* NUCLEAR ICON SIZING - OVERRIDE EVERYTHING */
+        svg {
+            width: 16px !important;
+            height: 16px !important;
+            max-width: 16px !important;
+            max-height: 16px !important;
+        }
+        
+        /* Override ALL Tailwind classes */
+        .w-3, .w-4, .w-5, .w-6, .w-7, .w-8, .w-9, .w-10 {
+            width: 16px !important;
+        }
+        
+        .h-3, .h-4, .h-5, .h-6, .h-7, .h-8, .h-9, .h-10 {
+            height: 16px !important;
+        }
+        
+        .sponsor-visit-icon {
+            width: 12px !important;
+            height: 12px !important;
+        }
+        
+        .button-icon {
+            width: 16px !important;
+            height: 16px !important;
+        }
+        
+        .test-container {
+            border: 2px solid red;
+            padding: 20px;
+            margin: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>NUCLEAR ICON SIZE TEST</h1>
+    
+    <div class="test-container">
+        <h2>Test 1: Default SVG (should be 16px)</h2>
+        <svg viewBox="0 0 24 24" fill="currentColor">
+            <path d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"/>
+        </svg>
+    </div>
+    
+    <div class="test-container">
+        <h2>Test 2: With Tailwind classes (should be 16px)</h2>
+        <svg class="w-6 h-6" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M17 8l4 4m0 0l-4 4m4-4H3"/>
+        </svg>
+    </div>
+    
+    <div class="test-container">
+        <h2>Test 3: With inline styles (should be 16px)</h2>
+        <svg style="width: 32px; height: 32px;" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M3 8l7.89 4.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/>
+        </svg>
+    </div>
+    
+    <div class="test-container">
+        <h2>Test 4: Sponsor visit icon (should be 12px)</h2>
+        <svg class="sponsor-visit-icon" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"/>
+        </svg>
+    </div>
+    
+    <div class="test-container">
+        <h2>Test 5: Button icon (should be 16px)</h2>
+        <svg class="button-icon" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M17 8l4 4m0 0l-4 4m4-4H3"/>
+        </svg>
+    </div>
+    
+    <p><strong>If all icons are small (16px or 12px), the nuclear CSS is working!</strong></p>
+</body>
+</html>

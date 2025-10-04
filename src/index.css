@@ -1,0 +1,106 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ==========================================
+   E-FAR CORE STYLES - AUTO CACHE BUSTING
+   Build Time: {{BUILD_TIME}}
+   Version: {{VERSION}}
+   Last Updated: {{CACHE_TIMESTAMP}}
+   CARS PAGE UPDATED - FORCE REFRESH - 2024-12-19
+   SPONSORS PAGE REDESIGNED - FORMULA BHARAT THEME - 2024-12-19
+   ICON SIZING FIXED - STANDARDIZED ALL ICONS - 2024-12-19
+   HARDCODED SVG ATTRIBUTES REMOVED - FORCE OVERRIDE ACTIVE - 2024-12-19
+   INLINE STYLES FORCED - NUCLEAR ICON SIZING - 2024-12-19
+   NUCLEAR OVERRIDE - ALL ICONS FORCED TO 16px - 2024-12-19
+   SPONSOR CARDS REDESIGNED - ROUNDED BORDERS & PADDING - 2024-12-19
+   LOGO BORDERS FIXED - BORDERS AROUND LOGOS ONLY - 2024-12-19
+   SPONSOR LOGOS UNIFIED - WHITE BACKGROUND & CONSISTENT SIZING - 2024-12-19
+   LOGO BORDERS TIGHTENED - MINIMAL PADDING AROUND LOGOS - 2024-12-19
+   CONTACT PAGE REDESIGNED - FORMULA BHARAT THEME - 2024-12-19
+   ========================================== */
+
+/* Brand Colors - PERMANENT DISABLE CACHE */
+/* Metallic Orange: #D4991B, McLaren Blue: #00A3E0, Brand Black: #0B0B0B, Brand White: #FFFFFF, Dark Grey: #1A1A1A */
+
+/* Development Mode Indicators */
+body::before {
+  content: "DEV MODE ACTIVE";
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  background: #ff4444;
+  color: white;
+  padding: 4px 8px;
+  font-size: 12px;
+  z-index: 9999;
+  font-family: monospace;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  scroll-behavior: smooth;
+  background-color: #1A1A1A; /* brand dark */
+  color: #FFFFFF; /* brand white */
+}
+
+/* Force Tailwind to recognize brand colors */
+@layer utilities {
+  .bg-brand-orange { background-color: #D4991B !important; }
+  .text-brand-orange { color: #D4991B !important; }
+  .bg-brand-blue { background-color: #00A3E0 !important; }
+  .text-brand-blue { color: #00A3E0 !important; }
+  .bg-brand-black { background-color: #0B0B0B !important; }
+  .text-brand-black { color: #0B0B0B !important; }
+  .bg-brand-white { background-color: #FFFFFF !important; }
+  .text-brand-white { color: #FFFFFF !important; }
+  .bg-brand-dark { background-color: #1A1A1A !important; }
+  .text-brand-dark { color: #1A1A1A !important; }
+}
+
+/* NUCLEAR ICON SIZING - OVERRIDE EVERYTHING */
+@layer components {
+  /* FORCE ALL ICONS TO BE SMALL */
+  svg {
+    width: 16px !important;
+    height: 16px !important;
+    max-width: 16px !important;
+    max-height: 16px !important;
+  }
+  
+  /* Override ALL Tailwind classes */
+  .w-3, .w-4, .w-5, .w-6, .w-7, .w-8, .w-9, .w-10 {
+    width: 16px !important;
+  }
+  
+  .h-3, .h-4, .h-5, .h-6, .h-7, .h-8, .h-9, .h-10 {
+    height: 16px !important;
+  }
+  
+  /* Override inline styles */
+  svg[style*="width"], svg[style*="height"] {
+    width: 16px !important;
+    height: 16px !important;
+  }
+  
+  /* Override hardcoded attributes */
+  svg[width], svg[height] {
+    width: 16px !important;
+    height: 16px !important;
+  }
+  
+  /* Special cases for very small icons */
+  .sponsor-visit-icon {
+    width: 12px !important;
+    height: 12px !important;
+  }
+  
+  /* Force all button icons to be small */
+  .button-icon {
+    width: 16px !important;
+    height: 16px !important;
+  }
+}
+
