@@ -14,7 +14,7 @@ export default function Contact() {
     setStatus({ message: "Sending...", type: "info" });
 
     try {
-      const res = await fetch("http://localhost:5000/api/contact", {
+      const res = await fetch("https://e-far-website-backend.onrender.com", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(formData),
