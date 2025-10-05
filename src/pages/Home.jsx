@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import { useState, useEffect } from "react";
-import teamPhoto from "../assets/team_photo1.jpg";
+import teamPhoto from "../assets/Team_photo1.jpg";
 import car1 from "../assets/car1.jpg";
 import car2 from "../assets/car2.jpg";
 import car3 from "../assets/car3.jpg";
