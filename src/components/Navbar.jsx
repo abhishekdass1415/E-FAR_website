@@ -1,6 +1,6 @@
 
 import { Link } from "react-router-dom";
-import teamLogo from "../assets/black_logo .png";
+import teamLogo from "../assets/black_logo.png";
 import collegeLogo from "../assets/SVPCET_logo.png";
 
 export default function Navbar() {
