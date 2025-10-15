@@ -11,17 +11,17 @@ const vehicles = [
   { 
     id: "efar-2024",
     name: "ZEUS",
-    year: 2024,
+    year: 2020,
     image: car1,
-    description: "Our first electric formula car, built for speed and reliability.",
+    description: "Our very first virtual car designed to participate in Formula Bharat Virtuals.",
     color: "255, 106, 11",
     specs: {
-      topSpeed: "120 km/h",
-      acceleration: "0-60 in 4.2s",
-      weight: "280 kg",
-      power: "80 kW",
+      topSpeed: "60 km/h",
+      acceleration: "0-60 in 5.2s",
+      weight: "NA kg",
+      power: "6.6 kW",
       battery: "7.2 kWh",
-      torque: "240 Nm"
+      torque: "120 Nm"
     }
   },
   { 
@@ -29,63 +29,63 @@ const vehicles = [
     name: "NEXUS",
     year: 2023,
     image: car2,
-    description: "Enhanced aerodynamics and improved battery management.",
+    description: "Our very first car designed and developed to participate in Formula Bharat.",
     color: "34, 165, 238",
     specs: {
-      topSpeed: "115 km/h",
+      topSpeed: "80 km/h",
       acceleration: "0-60 in 4.5s",
-      weight: "290 kg",
-      power: "75 kW",
+      weight: "315 kg",
+      power: "7 kW",
       battery: "6.8 kWh",
-      torque: "220 Nm"
+      torque: "160 Nm"
     }
   },
   { 
     id: "efar-2022a",
     name: "Tarkashya",
-    year: 2022,
+    year: 2024,
     image: car3,
-    description: "Lightweight chassis with advanced suspension system.",
+    description: "A completely fresh car that helped us to open the door for future innovation.",
     color: "255, 106, 11",
     specs: {
-      topSpeed: "110 km/h",
+      topSpeed: "80km/h",
       acceleration: "0-60 in 5.0s",
-      weight: "300 kg",
-      power: "70 kW",
-      battery: "6.4 kWh",
-      torque: "200 Nm"
+      weight: "320 kg",
+      power: "6.9 kW",
+      battery: "6.72 kWh",
+      torque: "150 Nm"
     }
   },
   { 
     id: "efar-2022b",
     name: "Tarkashya 2.0",
-    year: 2022,
+    year: 2025,
     image: car5,
-    description: "Refined structure, enhanced endurance performance.",
+    description: "The vehicle which helped us to secure AIR 10th place in Formula Bharat 2025.",
     color: "34, 165, 238",
     specs: {
-      topSpeed: "112 km/h",
-      acceleration: "0-60 in 4.8s",
-      weight: "295 kg",
-      power: "72 kW",
-      battery: "6.6 kWh",
-      torque: "210 Nm"
+      topSpeed: "90 km/h",
+      acceleration: "0-60 in 6.5s",
+      weight: "310 kg",
+      power: "13.4 kW",
+      battery: "6.04 kWh",
+      torque: "150 Nm"
     }
   },
   { 
     id: "efar-2022c",
     name: "Tarkashya 3.0",
-    year: 2022,
+    year: 2026,
     image: car4,
-    description: "Latest innovation with cutting-edge technology.",
+    description: "Latest vehicle that is being developed for Formula Bharat 2026.",
     color: "255, 106, 11",
     specs: {
-      topSpeed: "118 km/h",
-      acceleration: "0-60 in 4.6s",
-      weight: "285 kg",
-      power: "78 kW",
-      battery: "7.0 kWh",
-      torque: "230 Nm"
+      topSpeed: "100 km/h",
+      acceleration: "0-60 in 5.5s",
+      weight: "310 kg",
+      power: "13.4 kW",
+      battery: "604.0 kWh",
+      torque: "150 Nm"
     }
   }
 ];

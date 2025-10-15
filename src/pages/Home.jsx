@@ -1,17 +1,17 @@
 import { Link } from "react-router-dom";
 import { useState, useEffect } from "react";
-import teamPhoto from "../assets/Team_photo1.jpg";
-import car1 from "../assets/car1.jpg";
-import car2 from "../assets/car2.jpg";
-import car3 from "../assets/car3.jpg";
-import car4 from "../assets/car4.jpg";
-import car5 from "../assets/car5.jpg";
-import heroVideo from "../assets/Web Vid.mp4";
+import teamPhoto from "/assets/Team_photo1.jpg";
+import car1 from "/assets/car1.jpg";
+import car2 from "/assets/car2.jpg";
+import car3 from "/assets/car3.jpg";
+import car4 from "/assets/car4.jpg";
+import car5 from "/assets/car5.jpg";
+import heroVideo from "/assets/Web_Vid.mp4";
 
 const vehicles = [
   { 
     name: "ZEUS", 
-    image: car1, 
+    image: "/assets/car1.jpg", 
     description: "Our first electric formula car, built for Formula Bharat Virtuals.",
     year: "2020",
     color: "255, 106, 11",
@@ -29,9 +29,9 @@ const vehicles = [
   },
   { 
     name: "NEXUS", 
-    image: car2, 
+    image: "/assets/car2.jpg", 
     description: "Centrals India First Electric Vehicle to take part in Formula Bharat.",
-    year: "2022",
+    year: "2023",
     color: "34, 165, 238",
     specs: {
       topSpeed: "80 km/h",
@@ -48,9 +48,9 @@ const vehicles = [
   },
   { 
     name: "Tarkashya", 
-    image: car3, 
+    image: "/assets/car3.jpg", 
     description: "Lightweight chassis with advanced suspension system.",
-    year: "2023",
+    year: "2024",
     color: "255, 106, 11",
     specs: {
       topSpeed: "80 km/h",
@@ -67,7 +67,7 @@ const vehicles = [
   },
   { 
     name: "Tarkashya 2.0", 
-    image: car5, 
+    image: "/assets/car5.jpg", 
     description: "Refined structure, with new Drivetrain and cooling upgrades.",
     year: "2024",
     color: "34, 165, 238",
@@ -87,7 +87,7 @@ const vehicles = [
   },
   { 
     name: "Tarkashya 3.0", 
-    image: car4, 
+    image: "/assets/car4.jpg", 
     description: "Latest Vehicle with cutting-edge technology and Refined structure.",
     year: "2025",
     color: "255, 106, 11",
@@ -867,7 +867,7 @@ export default function Home() {
             position: 'relative',
             zIndex: 10
           }}>
-            🏁 Our Formula Cars
+            🏁 Our FSEA Cars
           </h2>
 
           <p style={{
@@ -1193,7 +1193,7 @@ export default function Home() {
             padding: isMobile ? '0 1.5rem' : '0 1rem'
           }}>
             Be a part of our electrifying adventure! Whether you're a student, sponsor, or motorsport enthusiast,
-            your support drives us forward. Connect with us to innovate, collaborate, and race toward a sustainable future.
+            your support drives us forward. Connect with us to innovate, collaborate and race toward a sustainable future.
           </p>
           
           <Link

@@ -12,11 +12,11 @@ if (import.meta.env.DEV) {
 
 export default function Cars() {
   const cars = [
-    { id: "efar-2024", name: "ZEUS", year: 2024, image: car1, description: "Our most advanced car yet, featuring cutting-edge aerodynamics, lightweight chassis, and a high-efficiency powertrain." },
-    { id: "efar-2023", name: "NEXUS", year: 2023, image: car2, description: "This car introduced significant improvements in suspension and cooling systems." },
-    { id: "efar-2022a", name: "Tarkashya", year: 2022, image: car3, description: "Our first electric vehicle platform. A robust and reliable design that laid the foundation for future innovations." },
-    { id: "efar-2022b", name: "Tarkashya 2.0", year: 2022, image: car5, description: "Further refinements with better aero package and cooling upgrades." },
-    { id: "efar-2022c", name: "Tarkashya 3.0", year: 2022, image: car4, description: "Latest innovation with cutting-edge technology." },
+    { id: "efar-2024", name: "ZEUS", year: 2020, image: car1, description: "Our very first virtual car designed to participate in Formula Bharat Virtuals." },
+    { id: "efar-2023", name: "NEXUS", year: 2023, image: car2, description: "Our very first car designed and developed to participate in Formula Bharat." },
+    { id: "efar-2022a", name: "Tarkashya", year: 2024, image: car3, description: "A completely fresh car that helped us to open the door for future innovation." },
+    { id: "efar-2022b", name: "Tarkashya 2.0", year: 2025, image: car5, description: "The vehicle which helped us to secure AIR 10th place in Formula Bharat 2025." },
+    { id: "efar-2022c", name: "Tarkashya 3.0", year: 2026, image: car4, description: "Latest vehicle that is being developed for Formula Bharat 2026." },
   ];
 
   const Card = ({ car }) => (
@@ -146,7 +146,7 @@ export default function Cars() {
               textShadow: '0 4px 20px rgba(247, 108, 19, 0.3)',
             }}
           >
-            Our Formula Cars
+            Our FSEA Cars
           </h1>
           <p
             className="text-xl md:text-2xl"
@@ -157,7 +157,7 @@ export default function Cars() {
               margin: '0 auto',
             }}
           >
-            Explore our electric formula cars.
+            Explore our electric FSEA cars.
           </p>
         </div>
       </section>

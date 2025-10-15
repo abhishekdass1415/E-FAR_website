@@ -4,30 +4,40 @@ import { TransitionLink } from "../components/TransitionProvider";
 export default function Team() {
   const teamMembers = {
     leadership: [
-      { name: "Alex Johnson", role: "Team Captain", department: "Leadership", linkedin: "#", github: "#" },
-      { name: "Sarah Chen", role: "Technical Director", department: "Leadership", linkedin: "#", github: "#" },
-      { name: "Michael Rodriguez", role: "Business Manager", department: "Leadership", linkedin: "#", github: "#" }
+      { name: "Nairutya Mankar", role: "Team Captain", department: "Leadership", linkedin: "#", github: "#" },
+      { name: "Ashay Lanjewar", role: "Vice Captain", department: "Leadership", linkedin: "#", github: "#" }
+      
     ],
     aerodynamics: [
-      { name: "Emma Wilson", role: "Aerodynamics Lead", department: "Aerodynamics", linkedin: "#", github: "#" },
-      { name: "David Kim", role: "CFD Engineer", department: "Aerodynamics", linkedin: "#", github: "#" },
-      { name: "Lisa Zhang", role: "Wind Tunnel Specialist", department: "Aerodynamics", linkedin: "#", github: "#" }
+      { name: "Abhishek Dass", role: "Aerodynamics Lead", department: "Aerodynamics", linkedin: "#", github: "#" },
+      { name: "Arya Chinchalkar", role: "CFD Engineer", department: "Aerodynamics", linkedin: "#", github: "#" },
+      { name: "Aryan Ingole", role: "Wind Tunnel Specialist", department: "Aerodynamics", linkedin: "#", github: "#" }
     ],
     powertrain: [
-      { name: "James Thompson", role: "Powertrain Lead", department: "Powertrain", linkedin: "#", github: "#" },
-      { name: "Maria Garcia", role: "Battery Engineer", department: "Powertrain", linkedin: "#", github: "#" },
-      { name: "Ahmed Hassan", role: "Motor Controller", department: "Powertrain", linkedin: "#", github: "#" }
+      { name: "Sahil Bhandikar", role: "Powertrain Lead", department: "Powertrain", linkedin: "#", github: "#" },
+      { name: "Vedant Ghodkhande", role: "Battery Engineer", department: "Powertrain", linkedin: "#", github: "#" },
+      { name: "ApurvaAdepuwar", role: "Motor Controller", department: "Powertrain", linkedin: "#", github: "#" }
     ],
     chassis: [
-      { name: "Sophie Brown", role: "Chassis Lead", department: "Chassis", linkedin: "#", github: "#" },
-      { name: "Ryan O'Connor", role: "Suspension Engineer", department: "Chassis", linkedin: "#", github: "#" },
-      { name: "Priya Patel", role: "Structural Engineer", department: "Chassis", linkedin: "#", github: "#" }
+      { name: "Arjun Khobragade", role: "Chassis Lead", department: "Chassis", linkedin: "#", github: "#" },
+      { name: "Sajal", role: "Suspension Engineer", department: "Chassis", linkedin: "#", github: "#" },
+      { name: "Siddhant Deshpande", role: "Structural Engineer", department: "Chassis", linkedin: "#", github: "#" }
     ],
     business: [
-      { name: "Kevin Lee", role: "Business Lead", department: "Business", linkedin: "#", github: "#" },
-      { name: "Anna Kowalski", role: "Marketing Manager", department: "Business", linkedin: "#", github: "#" },
-      { name: "Carlos Mendez", role: "Sponsorship Coordinator", department: "Business", linkedin: "#", github: "#" }
-    ]
+      { name: "Kanishka Wankhede", role: "Business Lead", department: "Business", linkedin: "#", github: "#" }
+    ],
+    LV: [
+      { name: "Melvin Kakde", role: "System Integration Lead", department: "System Integration", linkedin: "#", github: "#" },
+      { name: "Sharyu", role: "System Integration Engineer", department: "System Integration", linkedin: "#", github: "#" },
+      { name: "Aryan Nandurkar", role: "System Integration Engineer", department: "System Integration", linkedin: "#", github: "#" },
+      { name: "Khaustubh Shende", role: "System Integration Engineer", department: "System Integration", linkedin: "#", github: "#" },
+      { name: "Gandharvi", role: "System Integration Engineer", department: "System Integration", linkedin: "#", github: "#" }
+    ],
+    daq: [
+      { name: "Abhishek Dass", role: "Data Acquisation Lead", department: "Data Acquisation", linkedin: "#", github: "#" },
+      { name: "Karan Agre", role: "Data Acquisation Engineer", department: "Data Acquisation", linkedin: "#", github: "#" },
+      { name: "Ritik Neware", role: "Data Acquisation Engineer", department: "Data Acquisation", linkedin: "#", github: "#" }
+    ],
   };
 
   const MemberCard = ({ member, index }) => (
@@ -376,7 +386,9 @@ export default function Team() {
           aerodynamics: { title: "Aerodynamics Department", subtitle: "Optimizing airflow for maximum performance", icon: "💨" },
           powertrain: { title: "Powertrain Department", subtitle: "Powering the future with electric innovation", icon: "⚡" },
           chassis: { title: "Chassis Department", subtitle: "Building the foundation of performance", icon: "🔧" },
-          business: { title: "Business Department", subtitle: "Driving growth and partnerships", icon: "💼" }
+          business: { title: "Business Department", subtitle: "Driving growth and partnerships", icon: "💼" },
+          lv: { title: "LV Department", subtitle: "Powering the future with electric innovation", icon: "⚡" },
+          daq: { title: "DAQ Department", subtitle: "Powering the future with electric innovation", icon: "📊" }
         };
 
         return (
@@ -387,7 +399,7 @@ export default function Team() {
               position: 'relative',
               overflow: 'hidden',
               background: isEven ? 
-                'linear-gradient(135deg, #0f1419 0%, #1f2937 100%)' : 
+                'linear-gradient(135deg, #0f1419 0%, #1f2937 100%)' :
                 'linear-gradient(135deg, #111827 0%, #1f2937 100%)'
             }}
           >

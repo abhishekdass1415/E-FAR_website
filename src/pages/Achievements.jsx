@@ -156,47 +156,47 @@ export default function Achievements() {
   const achievements = useMemo(() => [
     {
       id: 1,
-      title: "Formula Student India 2024 - Overall Champions",
+      title: "Formula Bharat Virtual 2020 - AIR 10",
       date: "2024-01-15",
       icon: "🏆",
-      location: "Kari Motor Speedway, Chennai",
-      rank: "1st Place Overall",
-      description: "Dominated Formula Student India 2024 with our revolutionary EV, showcasing unmatched performance.",
+      location: "Virtual",
+      rank: "10th Place Overall",
+      description: "Showed our team capability by acheiveing 10th place in our first year as a EV team thus, showcasing unmatched performance.",
       story: "After 18 months of development, our team achieved the ultimate goal in student motorsport.",
-      metrics: [{ label: "Top Speed", value: "120 km/h" }, { label: "Acceleration", value: "3.8s" }, { label: "Efficiency", value: "98.7%" }, { label: "Total Score", value: "892 / 900" }]
+      metrics: [{ label: "Top Speed", value: "60 km/h" }, { label: "Acceleration", value: "0-60 in 5.2s" }, { label: "Efficiency", value: "87.3%" }, { label: "Total Score", value: "820 / 900" }]
     },
     {
       id: 2,
-      title: "Best Business Plan Award",
-      date: "2023-11-20",
+      title: "Business Plan 2025 - AIR 10",
+      date: "2025-01-26",
       icon: "💼",
-      location: "India Expo Mart, Greater Noida",
-      rank: "Gold Winner",
+      location: "Coimbatore, Chennai , India",
+      rank: "AIR 10",
       description: "Recognized for the most comprehensive and market-ready business strategy for EV commercialization.",
       story: "Our presentation connected technical innovation to a viable commercial roadmap with realistic projections.",
       metrics: [{ label: "Market Size", value: "₹2.3L Cr" }, { label: "ROI", value: "340%" }, { label: "Break-even", value: "36 months" }, { label: "Funding Raised", value: "₹15L" }]
     },
     {
       id: 3,
-      title: "Innovation Excellence Award",
-      date: "2023-09-10",
+      title: "Formula Bharat 2025 - AIR 10",
+      date: "2025-01-26",
       icon: "⚡",
-      location: "IIT Delhi Tech Summit",
-      rank: "Gold Medal",
-      description: "AI-powered battery management improved energy efficiency and performance optimization.",
-      story: "The AI-driven BMS set new standards for intelligent automotive systems with better performance and longevity.",
-      metrics: [{ label: "Efficiency Gain", value: "+28%" }, { label: "Battery Life", value: "+40%" }, { label: "Response Time", value: "12ms" }, { label: "AI Accuracy", value: "96.8%" }]
+      location: "Coimbatore, Chennai , India",
+      rank: "AIR 10",
+      description: "Our hardwork and dedication towards our work payed off as we achieve AIR 10 in formula bharat 2025 session",
+      story: "This was a very interesting journey for our team as we faced various problems in final time but still we managed to achieve somethig that was un imaginable at that period of time.",
+      metrics: [{ label: "Efficiency Gain", value: "+28%" }, { label: "Battery Life", value: "+40%" }, { label: "Response Time", value: "12ms" }, { label: "Error reduction", value: "89.87%" }]
     },
     {
       id: 4,
-      title: "Best Team Collaboration",
-      date: "2023-07-25",
+      title: "Altair Simulation Challenge - AIR 3",
+      date: "2025-01-26",
       icon: "👥",
-      location: "Buddh International Circuit",
-      rank: "Special Recognition",
-      description: "Honored for exceptional teamwork, cross-functional collaboration, and leadership.",
-      story: "The award celebrated the human element behind technical achievements, showcasing inclusive leadership and team culture.",
-      metrics: [{ label: "Team Size", value: "30" }, { label: "Departments", value: "8" }, { label: "Satisfaction", value: "9.7/10" }, { label: "Retention", value: "95%" }]
+      location: "Coimbatore, Chennai , India",
+      rank: "AIR 3",
+      description: "Honored for exceptional teamwork and simulation practices on ALTAIR software to showcase our simulation skills.",
+      story: "The award celebrated the human element behind technical achievements, showcasing inclusive simulation skills on the ALTAIR simulation software.",
+      metrics: [{ label: "Team Size", value: "4" }, { label: "Departments", value: "3" }, { label: "Satisfaction", value: "9.7/10" }, { label: "Retention", value: "95%" }]
     }
   ], []);
 
@@ -218,7 +218,7 @@ export default function Achievements() {
             <span style={{ backgroundImage: `linear-gradient(90deg, ${PALETTE.red}, ${PALETTE.orange})`, WebkitBackgroundClip: "text", color: "transparent" }}>Timeline</span>
           </h1>
           <p className="max-w-3xl mx-auto text-sm md:text-lg text-gray-400/80">
-            Celebrating milestones, innovation, and teamwork that shaped our legacy in electric racing.
+            Celebrating milestones, innovation and teamwork that shaped our legacy in electric racing.
           </p>
         </header>
 

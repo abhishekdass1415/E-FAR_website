@@ -433,7 +433,7 @@ export default function About() {
               opacity: 0,
               padding: isMobile ? '0 0.5rem' : '0'
             }}>
-              Discover the story behind our championship-winning electric formula racing team
+              Discover the story behind our Formula student racing team
             </p>
           </div>
         </section>
@@ -506,9 +506,9 @@ export default function About() {
                   lineHeight: '1.75',
                   textAlign: 'center'
                 }}>
-                  To design, build, and race electric formula cars that push the
+                  To design, build and race electric formula cars that push the
                   boundaries of sustainable automotive technology while fostering
-                  innovation, teamwork, and engineering excellence among students.
+                  innovation, teamwork and engineering excellence among students.
                 </p>
               </div>
 
@@ -818,7 +818,7 @@ export default function About() {
       }}>
         {[
           { 
-            year: "2022", 
+            year: "2020", 
             title: "Genesis", 
             subtitle: "The Beginning",
             desc: "Born from pure passion and innovation, E-Formula Ashwa Riders emerged with 15 visionary engineers ready to electrify the racing world.",
@@ -830,8 +830,8 @@ export default function About() {
           { 
             year: "2023", 
             title: "Breakthrough", 
-            subtitle: "First Victory",
-            desc: 'Dominated Formula Student India 2023 with our groundbreaking debut, claiming "Best Newcomer Award" and securing top 10 finish against seasoned competitors.',
+            subtitle: "First Vehicle",
+            desc: 'Create our first ever inhouse formula style electric vehicle..',
             side: 'right',
             icon: "🏆",
             achievement: "Best Newcomer",
@@ -840,21 +840,21 @@ export default function About() {
           { 
             year: "2024", 
             title: "Excellence", 
-            subtitle: "Championship Level",
-            desc: "Reached the pinnacle with 1st place in Design Event and 2nd place in Business Plan, establishing ourselves as championship contenders.",
+            subtitle: "New Height",
+            desc: "Created our very own accumulator container inhouse.",
             side: 'left',
             icon: "👑",
-            achievement: "Design Champions",
+            achievement: "Our Own Designed and developed Accumulator Container",
             color: colors.orange
           },
           { 
             year: "2025", 
-            title: "Evolution", 
-            subtitle: "Global Stage",
-            desc: "Expanding our racing dynasty to international competitions, ready to showcase electric racing excellence on the world stage.",
+            title: "Bounce Back", 
+            subtitle: "AIR 10",
+            desc: "After facing many problems our team managed to achieve AIR 10 again.",
             side: 'right',
             icon: "🌍",
-            achievement: "Global Expansion",
+            achievement: "AIR 10",
             color: colors.blue
           }
         ].map((milestone, idx) => (
